@@ -62,13 +62,13 @@
                                             <span class="fa fa-star-o" style="color:gold"></span>
                                             <span class="fa fa-star"></span>
                                         </li>
-                                        @elseif($total > 40 && $total <= 50)
+                                        @elseif($total > 50)
                                         <li class="meta-item blog-lesson">
                                             <span class="fa fa-star-o" style="color:gold"></span>
                                             <span class="fa fa-star-o" style="color:gold"></span>
                                             <span class="fa fa-star-o" style="color:gold"></span>
                                             <span class="fa fa-star-o" style="color:gold"></span>
-                                            <span class="fa fa-star"></span>
+                                            <span class="fa fa-star-o" style="color:gold"></span>
                                         </li>
                                         @endif
                                     </ul>

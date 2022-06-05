@@ -12,15 +12,15 @@
         <div class="">
             
             <!-- Theme-Layout -->
-            <!-- Theme-Layout -->
-            <div class="col-login mx-auto">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/vert.jpg') }}" class="header-brand-img" alt="">
-                    </div>
-                </div>
+           
             <!-- CONTAINER OPEN -->
             <div class="container-login100">
                 <div class="wrap-login100 p-8">
+                    <div class="col-login mx-auto">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/vert.jpg') }}" class="header-brand-img" alt="">
+                        </div>
+                    </div>
                     <form class="login100-form validate-form">
                         <div class="container-login100-form-btn pt-0">
                             <a href="{{ route('login') }}" class="login100-form-btn btn-primary">
